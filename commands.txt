@@ -1,0 +1,5 @@
+
+# для запуска обучения в докер контейнере с использованием GPU
+# это jupyter server для подключения
+# рабочая демка лежит в intro
+winpty docker run -it --rm --gpus all -p 8888:8888 tensorflow/tensorflow:latest-gpu-jupyter
